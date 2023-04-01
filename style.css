@@ -1,40 +1,41 @@
-    * {
-        padding:0;
-        margin:0;
-        vertical-align:baseline;
-        list-style:none;
-        border:0
-    }
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
 
-    a:link{
-        color: white;
-    }
+a:link{
+    color: white;
+}
 
-    .theader{
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-    }
+.theader{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    #header{
-        height: 4vh;
-        background-color: #ff4655;
-    }
+#header{
+    height: 4vh;
+    background-color: #ff4655;
+}
 
-    /* lado esquerdo */
-#section {
-    display: flex;
-    width: 100%;
+/* lado esquerdo */
+
+#section{
+    width: 10vw;
     height: 96vh;
 }
 
-#sectionagentes {
-    width: 50%;
+#sectionagentes{
+    float: left;
+    width: 50vw;
     height: 96vh;
     background-color: #0F1923;
 }
 
-#btnesquerda {
+#btnesquerda{
     margin-left: 150px;
     margin-top: 32vh;
     width: 250px;
@@ -42,40 +43,53 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.sovae {
-    margin-top: 130px;
+.sovad{
+    margin-top: 250px;
     height: 55vh;
+    float: right;
 }
 
-#loopagentes {
+#loopagentes{
     color: white;
     font-family: 'Montserrat', sans-serif;
+    float: right;
     margin-top: 0px;
-    margin-left: 250px;
+    margin-left: -150px;
 }
 
 /* fim do lado esquerdo */
 
 /* lado direito */  
-#sectionmapas {
-    width: 50%;
+
+#sectionmapas{
+    margin-right: 0;
+    float: right;
+    width: 48.9vw;
     height: 96vh;
     background-color: #0F1923;
 }
 
-.sovad {
-    margin-top: 130px;
+.sovae{
+    margin-top: 250px;
     height: 55vh;
+    float: left;
 }
 
-#btndireita {
+#btndireita{
     margin-right: 150px;
+    float: right;
     margin-top: 32vh;
+    margin-bottom: 10px;
     width: 250px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
-#sectionagentes, #sectionmapas {
-    width: 50vw !important;
-  }
+#loopmapas{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    float: left;
+    margin-top: 0px;
+    margin-right: -150px;
+}

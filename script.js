@@ -7,12 +7,11 @@ var Agentes = ["Gekko", "Harbor", "Fade", "Neon", "Chamber", "KAY/O", "Astra", "
 // lado esquerdo
 
 function corumsecum(){
-    document.getElementById("sectionagentes").style.backgroundColor='#1B2D40';;
+    document.getElementById("sectionagentes").style.backgroundColor='#1B2D40';
 }
 
 function cordoissecum(){
-    document.getElementById("sectionagentes").style.backgroundColor='#0F1923';;
-    document.getElementById("sectionmapas").style.backgroundColor='#0F1923';;
+    document.getElementById("sectionagentes").style.backgroundColor='#0F1923';
 }
 
 function btnesquerda(){
@@ -21,3 +20,16 @@ function btnesquerda(){
 
 }
 // fim do lado esquerdo
+
+function corumsecdois(){
+    document.getElementById("sectionmapas").style.backgroundColor='#1B2D40';;
+}
+
+function cordoissecdois(){
+    document.getElementById("sectionmapas").style.backgroundColor='#0F1923';
+}
+
+function btndireita(){
+    var loopmapas = document.getElementById("loopmapas");
+    loopmapas.innerHTML = Mapas;
+}
