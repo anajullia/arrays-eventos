@@ -1,0 +1,81 @@
+    * {
+        padding:0;
+        margin:0;
+        vertical-align:baseline;
+        list-style:none;
+        border:0
+    }
+
+    a:link{
+        color: white;
+    }
+
+    .theader{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #header{
+        height: 4vh;
+        background-color: #ff4655;
+    }
+
+    /* lado esquerdo */
+#section {
+    display: flex;
+    width: 100%;
+    height: 96vh;
+}
+
+#sectionagentes {
+    width: 50%;
+    height: 96vh;
+    background-color: #0F1923;
+}
+
+#btnesquerda {
+    margin-left: 150px;
+    margin-top: 32vh;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sovae {
+    margin-top: 130px;
+    height: 55vh;
+}
+
+#loopagentes {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+
+/* fim do lado esquerdo */
+
+/* lado direito */  
+#sectionmapas {
+    width: 50%;
+    height: 96vh;
+    background-color: #0F1923;
+}
+
+.sovad {
+    margin-top: 130px;
+    height: 55vh;
+}
+
+#btndireita {
+    margin-right: 150px;
+    margin-top: 32vh;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sectionagentes, #sectionmapas {
+    width: 50vw !important;
+  }
