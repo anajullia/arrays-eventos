@@ -1,6 +1,6 @@
 var Mapas = ["Lotus", "Pearl", "Fracture", "Breeze", "Icebox", "Bind", "Haven", "Split", "Ascent"];
 
-var Agentes = ["Gekko", "Harbor", "Fade", "Neon", "Chamber", "KAY/O", "Astra", "Yoru", "Skye", "Raze", "Jett", "Omen", "Breach", "Killjoy", "Reyna", "Cypher", "Viper", "Sova", "Sage", "Phoenix", "Brimstone"];
+var Agentes = ["Gekko", "Harbor", "Fade", "Neon", "Chamber", "KAY/O", "<br>", "Astra", "Yoru", "Skye", "Raze", "Jett", "Omen", "Breach", "Killjoy", "<br>", "Reyna", "Cypher", "Viper", "Sova", "Sage", "Phoenix", "Brimstone"];
 
 
 
@@ -16,7 +16,7 @@ function cordoissecum(){
 
 function btnesquerda(){
     var loopagentes = document.getElementById("loopagentes");
-    loopagentes.innerHTML = Mapas;
+    loopagentes.innerHTML = Agentes;
 
 }
 // fim do lado esquerdo
